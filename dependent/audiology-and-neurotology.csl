@@ -1,17 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
-  <!-- Generated with https://github.com/citation-style-language/utilities/tree/master/generate_dependent_styles/data/karger -->
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort">
   <info>
-    <title>Audiology and Neurotology</title>
-    <id>http://www.zotero.org/styles/audiology-and-neurotology</id>
-    <link href="http://www.zotero.org/styles/audiology-and-neurotology" rel="self"/>
-    <link href="http://www.zotero.org/styles/karger-journals-author-date" rel="independent-parent"/>
-    <link href="http://www.karger.com?issn=1421-9700" rel="documentation"/>
+    <title>Journal of Audiology &amp; Otology</title>
+    <id>https://www.ejao.org/</id>
+    <link href="https://raw.githubusercontent.com/citation-style-language/styles/master/journal-of-audiology-and-otology.csl" rel="self"/>
+    <link href="https://raw.githubusercontent.com/citation-style-language/styles/master/journal-of-audiology-and-otology.csl" rel="documentation"/>
+    <author>
+      <name>ChatGPT</name>
+      <email>chatgpt@openai.com</email>
+      <website>https://openai.com</website>
+    </author>
     <category citation-format="author-date"/>
+    <category field="biology"/>
     <category field="medicine"/>
-    <issn>1420-3030</issn>
-    <eissn>1421-9700</eissn>
-    <updated>2014-06-04T12:00:00+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
+  <citation>
+    <sort>
+      <key variable="author"/>
+      <key variable="issued"/>
+    </sort>
+    <template>
+      <text variable="author"/>
+      <text value=" (" prefix=" "/>
+      <date variable="issued">
+        <date-part name="year"/>
+      </date>
+      <text value=")"/>
+    </template>
+  </citation>
+  <bibliography>
+    <sort>
+      <key variable="author"/>
+      <key variable="issued"/>
+    </sort>
+    <layout>
+      <text variable="author"/>
+      <text value=" (" prefix=" "/>
+      <date variable="issued">
+        <date-part name="year"/>
+      </date>
+      <text value="). "/>
+      <text variable="title"/>
+      <text value=". "/>
+      <text variable="container-title" font-style="italic"/>
+      <text variable="volume" prefix=", "/>
+      <text variable="issue" prefix="(" suffix=")"/>
+      <text variable="page" prefix=", " suffix="."/>
+    </layout>
+  </bibliography>
 </style>

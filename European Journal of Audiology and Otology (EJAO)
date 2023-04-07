@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text">
+  <info>
+    <title>European Journal of Audiology and Otology (EJAO)</title>
+    <id>https://www.ejao.org/authors/authors.php</id>
+    <link href="https://www.ejao.org/authors/authors.php" rel="documentation"/>
+    <author>
+      <name>YOUR NAME</name>
+      <email>YOUR EMAIL ADDRESS</email>
+    </author>
+    <category citation-format="author-date"/>
+    <summary>European Journal of Audiology and Otology (EJAO) citation style</summary>
+  </info>
+  <citation>
+    <sort>
+      <key variable="issued"/>
+    </sort>
+    <layout>
+      <text variable="author"/>
+      <text value=" (" />
+      <date variable="issued">
+        <date-part name="year"/>
+      </date>
+      <text value="). "/>
+      <text variable="title" font-style="italic"/>
+      <text value=". "/>
+      <text variable="container-title"/>
+      <text value=", "/>
+      <text variable="volume"/>
+      <text value="("/>
+      <text variable="issue"/>
+      <text value="), "/>
+      <text variable="page"/>
+      <text value="."/>
+    </layout>
+  </citation>
+  <bibliography>
+    <sort>
+      <key variable="issued"/>
+      <key variable="author"/>
+      <key variable="title"/>
+    </sort>
+    <layout>
+      <text variable="author"/>
+      <text value=" (" />
+      <date variable="issued">
+        <date-part name="year"/>
+      </date>
+      <text value="). "/>
+      <text variable="title" font-style="italic"/>
+      <text value=". "/>
+      <text variable="container-title"/>
+      <text value=", "/>
+      <text variable="volume"/>
+      <text value="("/>
+      <text variable="issue"/>
+      <text value="), "/>
+      <text variable="page"/>
+      <text value="."/>
+    </layout>
+  </bibliography>
+</style>
